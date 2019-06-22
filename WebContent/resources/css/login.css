@@ -1,7 +1,7 @@
 body{
-    background-color:#5286F3;
+    background-color:#ff8000;
     font-size:14px;
-    color:#fff;
+    color:#ff00ff;
 }
 .simple-login-container{
     width:300px;
@@ -14,9 +14,9 @@ body{
 }
 
 .simple-login-container .btn-login{
-    background-color:#FF5964;
-    color:#fff;
+    background-color:#400040;
+    color:#ff00ff;
 }
 a{
-    color:#fff;
+    color:#8080c0;
 }

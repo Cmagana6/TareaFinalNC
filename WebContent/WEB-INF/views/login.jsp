@@ -15,7 +15,7 @@
 <body >
 	
 	<div class="simple-login-container">
-		<h2>Login</h2>
+		<h2>Bienvenido</h2>
 			<form id="holi" >
 	
 			
@@ -59,7 +59,7 @@
 						//$( location ).attr("href", "${pageContext.request.contextPath}/sucursal/main");
 					},
 					error: function (xhr) {
-						swal("Usuario o contraseña inválido, por favor intente nuevamente", {
+						swal("Usuario o contraseña incorrecta, intente nuevamente", {
 				 	    	icon: "error",
 		 		   		});
 					}
