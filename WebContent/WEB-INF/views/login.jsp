@@ -16,7 +16,7 @@
 	
 	<div class="simple-login-container">
 		<h2>Bienvenido</h2>
-			<form id="holi" >
+			<form id="loginform" >
 	
 			
 			<div class="row">
@@ -46,12 +46,12 @@
     </script>
     
    	<script type='text/javascript'>
-	   	$("#holi").on('submit', function (e) {
+	   	$("#loginform").on('submit', function (e) {
 			e.preventDefault();
 			$.ajax(
 				{
 					url: "${pageContext.request.contextPath}/login",
-					data:  $("#holi").serialize(),
+					data:  $("#loginform").serialize(),
 					type: 'POST',
 					success: function (result) {
 
