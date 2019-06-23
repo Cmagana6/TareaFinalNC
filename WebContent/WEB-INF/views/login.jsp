@@ -33,7 +33,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 form-group">
-					<input type="submit" class="btn btn-block btn-login" value="Iniciar Sesi&oacute;n">
+					<input type="submit" class="btn btn-outline-dark " value="Iniciar Sesi&oacute;n">
 				</div>
 			</div>
 			</form>

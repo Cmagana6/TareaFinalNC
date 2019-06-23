@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-	<h2 class="text-center">Registrar Sucursal</h2>
+	<h2 class="">Registrar Sucursal</h2>
 	<form:form id="regsucform" action="${pageContext.request.contextPath}/sucursal/registrar" method="POST" modelAttribute="editarDTO">
 		<form:input type="hidden" name="id" value="1" path="idSucursal"/>
 		
@@ -68,7 +68,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 form-group">
-				<input id="enviar" type = "submit" value="Agregar Sucursal" class="btn btn-block btn-login btn-warning">
+				<input id="enviar" type = "submit" value="Agregar Sucursal" class="btn btn-outline-dark">
 				</div>
 			</div>
 		</form:form>

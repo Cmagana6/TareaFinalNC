@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-	<h2 class="text-center">Editar Empleado</h2>
+	<h2 class="">Editar Empleado</h2>
 	<form:form id="editempform" action="${pageContext.request.contextPath}/empleado/editar" method="POST" modelAttribute="editarEmpDTO">
 		<form:input type="hidden" name="id" path="idEmpleado"/>
 		<input type="hidden" name="empId" value="${IdPadre}"/>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 form-group">
-				<input id="enviar" type = "submit" value="Guardar Cambios" class="btn btn-block btn-login btn-warning">
+				<input id="enviar" type = "submit" value="Guardar Cambios" class="btn btn-outline-dark">
 				</div>
 			</div>
 		</form:form>

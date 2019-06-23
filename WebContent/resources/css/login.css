@@ -1,5 +1,5 @@
 body{
-    background-color:#ff8000;
+    background-color:#c0c0c0;
     font-size:14px;
     color:#ff00ff;
 }
@@ -14,7 +14,7 @@ body{
 }
 
 .simple-login-container .btn-login{
-    background-color:#400040;
+    background-color:#ffffff;
     color:#ff00ff;
 }
 a{
