@@ -8,12 +8,12 @@ import org.hibernate.validator.constraints.NotEmpty;
 @SuppressWarnings("deprecation")
 public class LoginDTO {
 
-	@NotEmpty(message = "por favor ingrese su correo electronico")
-	@Email(message = "su correo electronico debe ser valido")
+	@NotEmpty(message = "Ingrese su correo electronico")
+	@Email(message = "Ingrese un correo electronico valido")
 	@Size(message = "la longitud maxima es de 100 caracteres", min = 0, max = 100)
 	public String username;
 	
-	@NotEmpty(message = "por favor ingrese su contraseña")
+	@NotEmpty(message = "Ingrese su contraseña")
 	@Size(message = "la longitud maxima es de 100 caracteres", min = 0, max = 100)
 	public String password;
 

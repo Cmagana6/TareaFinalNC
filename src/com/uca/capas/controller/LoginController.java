@@ -50,15 +50,5 @@ public class LoginController {
 		}
 	}
 	
-	/*@RequestMapping(value = "/login",method = { RequestMethod.GET, RequestMethod.POST })
-	public ModelAndView main(@Valid @ModelAttribute LoginDTO loginDTO, BindingResult result){
-		ModelAndView mav = new ModelAndView();
-		if(result.hasErrors() || usuarioService.findUsuarioyContraseña(loginDTO.username, loginDTO.password)==null) {
-			mav.setViewName("login");
-		} else {
-			mav.addObject("sucursales", sucursalService.findAll());
-			mav.setViewName("sucursales/main");
-		}
-		return mav;
-	}*/
+	
 }

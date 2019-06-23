@@ -14,19 +14,19 @@ public class EditarEmpDTO {
 
 	private Integer idEmpleado;
 	
-	@NotEmpty(message = "favor ingrese el nombre del empleado")
+	@NotEmpty(message = "Ingrese el nombre del empleado")
 	@Size(message = "la longitud maxima es de 100 caracteres", min = 0, max = 100)
 	private String nombreEmpleado;
 	
-	@NotNull(message="favor ingresar edad")
-	@Digits(message = "la edad sobrepasa de los 100 anios", integer = 2, fraction = 0)
+	@NotNull(message="Ingrese la edad")
+	@Digits(message = "La edad sobrepasa de los 100 anios", integer = 2, fraction = 0)
 	@Range(min = 18, max = 75, message = "Ingrese una edad valida de trabajo [18-75]")
 	private BigInteger edadEmpleado;
 	
-	@NotNull(message="favor ingresar genero")
+	@NotNull(message="Seleccione un genero")
 	private Character generoEmpleado;
 	
-	@NotNull(message="favor ingresar estado")
+	@NotNull(message="Seleccione un estado")
 	private String estadoEmpleado;
 
 	public EditarEmpDTO() {
